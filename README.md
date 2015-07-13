@@ -17,7 +17,7 @@ Returns a random quote.
 Add the package `hubot-suisjenormal` as a dependency in your Hubot `package.json` file.
 
     "dependencies": {
-      "hubot-suisjenormal": "0.1.1"
+      "hubot-suisjenormal": "0.1.2"
     }
 
 Run the following command to make sure the module is installed.

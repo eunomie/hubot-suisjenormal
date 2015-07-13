@@ -1,7 +1,7 @@
 {
   "name": "hubot-suisjenormal",
   "description": "A script for Hubot to display random quotes from http://www.suisjenormal.fr",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Yves Brissaud <yves.brissaud@gmail.com",
   "license": "MIT",
   "keywords": [

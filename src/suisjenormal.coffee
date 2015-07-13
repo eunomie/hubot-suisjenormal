@@ -37,7 +37,7 @@ send_quote = (message, location, response_handler)->
     el = $("#siteDescription .transp p").first()
     desc = he.decode el.text()
     
-    el = $("#siteDescription .transp > i.highlightstory").first()
+    el = $("#siteDescription .transp i.highlightstory")[1]
     txt = he.decode el.text()
 
     response_handler desc, txt
