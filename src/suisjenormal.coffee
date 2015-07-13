@@ -36,8 +36,6 @@ send_quote = (message, location, response_handler)->
     $ = cheerio.load(body)
     el = $("#siteDescription .transp p").first()
     desc = he.decode el.text()
-    
-    el = $("#siteDescription .transp i.highlightstory").get(1)
-    txt = he.decode el.text()
+    txt = he.decode el.next().text()
 
     response_handler desc, txt
