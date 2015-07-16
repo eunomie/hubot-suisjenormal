@@ -18,7 +18,7 @@ cheerio = require('cheerio')
 he = require('he')
 
 module.exports = (robot)->
-  robot.respond /suisjenormal/i, (message)->
+  robot.respond /(suisjenormal|suis-je normal ?)/i, (message)->
     send_quote message, 'http://www.suisjenormal.fr/hasard', (desc, text)->
       message.send desc
       message.send "/quote #{text}"

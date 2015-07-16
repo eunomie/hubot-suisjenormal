@@ -13,3 +13,4 @@ describe 'suisjenormal', ->
 
   it 'registers respond listeners', ->
     expect(@robot.respond.args[0][0].toString()).to.equal("/suisjenormal/i")
+    expect(@robot.respond.args[0][0].toString()).to.equal("/suis-je normal ?/i")
